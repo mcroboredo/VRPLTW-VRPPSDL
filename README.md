@@ -1,0 +1,1 @@
+This repository contains the instances and VRPSolver models for the Vehicle Routing Problem with Lockers and Time Windows (VRPLTW) and the Vehicle Routing Problem with Private and Shared Delivery Locations (VRPPSDL), as used in the paper 'Exact Methods for Two Vehicle Routing Problems with Lockers in Last-Mile Delivery.'
