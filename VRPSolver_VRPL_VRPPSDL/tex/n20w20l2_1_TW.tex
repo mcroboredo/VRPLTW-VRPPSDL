@@ -1,0 +1,55 @@
+\documentclass[crop,tikz]{standalone}
+\begin{document}
+\begin{tikzpicture}[thick, scale=1, every node/.style={scale=0.3}]
+	\node[draw, line width=0.1mm, rectangle, fill=white, inner sep=0.05cm, scale=1.4] (v0) at (3.2,4.6000000000000005) {\footnotesize 0};
+	\node[draw, line width=0.1mm, circle, fill=white, inner sep=0.05cm] (v1) at (4.4,0.8) {\footnotesize 1};
+	\node[draw, line width=0.1mm, circle, fill=white, inner sep=0.05cm] (v2) at (2.4000000000000004,1.2000000000000002) {\footnotesize 2};
+	\node[draw, line width=0.1mm, circle, fill=white, inner sep=0.05cm] (v3) at (9.4,7.6000000000000005) {\footnotesize 3};
+	\node[draw, line width=0.1mm, circle, fill=white, inner sep=0.05cm] (v4) at (2.2,5.800000000000001) {\footnotesize 4};
+	\node[draw, line width=0.1mm, circle, fill=white, inner sep=0.05cm] (v5) at (5.0,1.0) {\footnotesize 5};
+	\node[draw, line width=0.1mm, circle, fill=white, inner sep=0.05cm] (v6) at (4.4,6.2) {\footnotesize 6};
+	\node[draw, line width=0.1mm, circle, fill=white, inner sep=0.05cm] (v7) at (0.0,3.2) {\footnotesize 7};
+	\node[draw, line width=0.1mm, circle, fill=white, inner sep=0.05cm] (v8) at (7.4,0.6000000000000001) {\footnotesize 8};
+	\node[draw, line width=0.1mm, circle, fill=white, inner sep=0.05cm] (v9) at (6.2,3.8000000000000003) {\footnotesize 9};
+	\node[draw, line width=0.1mm, circle, fill=white, inner sep=0.05cm] (v10) at (7.6000000000000005,2.4000000000000004) {\footnotesize 10};
+	\node[draw, line width=0.1mm, circle, fill=white, inner sep=0.05cm] (v11) at (7.2,0.2) {\footnotesize 11};
+	\node[draw, line width=0.1mm, circle, fill=white, inner sep=0.05cm] (v12) at (7.6000000000000005,2.8000000000000003) {\footnotesize 12};
+	\node[draw, line width=0.1mm, circle, fill=white, inner sep=0.05cm] (v13) at (0.8,10.0) {\footnotesize 13};
+	\node[draw, line width=0.1mm, circle, fill=white, inner sep=0.05cm] (v14) at (1.0,0.8) {\footnotesize 14};
+	\node[draw, line width=0.1mm, circle, fill=white, inner sep=0.05cm] (v15) at (3.2,0.6000000000000001) {\footnotesize 15};
+	\node[draw, line width=0.1mm, circle, fill=white, inner sep=0.05cm] (v16) at (5.0,5.0) {\footnotesize 16};
+	\node[draw, line width=0.1mm, circle, fill=white, inner sep=0.05cm] (v17) at (6.2,3.0) {\footnotesize 17};
+	\node[draw, line width=0.1mm, circle, fill=white, inner sep=0.05cm] (v18) at (7.2,2.8000000000000003) {\footnotesize 18};
+	\node[draw, line width=0.1mm, circle, fill=white, inner sep=0.05cm] (v19) at (5.6000000000000005,3.2) {\footnotesize 19};
+	\node[draw, line width=0.1mm, circle, fill=white, inner sep=0.05cm] (v20) at (4.0,7.0) {\footnotesize 20};
+	\node[draw, line width=0.1mm, rectangle, fill=yellow, inner sep=0.05cm] (v21) at (5.0,5.0) {\footnotesize 21};
+	\draw[red,dashed,-,line width=0.2pt,opacity=.4] (v21) circle (4.0);
+	\node[draw, line width=0.1mm, rectangle, fill=yellow, inner sep=0.05cm] (v22) at (2.5,2.5) {\footnotesize 22};
+	\draw[red,dashed,-,line width=0.2pt,opacity=.4] (v22) circle (4.0);
+	\draw[dashed,-,line width=0.4pt] (v0) -- (v19);
+	\draw[dashed,-,line width=0.4pt] (v19) -- (v17);
+	\draw[dashed,-,line width=0.4pt] (v17) -- (v18);
+	\draw[dashed,-,line width=0.4pt] (v18) -- (v10);
+	\draw[dashed,-,line width=0.4pt] (v10) -- (v12);
+	\draw[dashed,-,line width=0.4pt] (v12) -- (v3);
+	\draw[dashed,-,line width=0.4pt] (v3) -- (v21);
+	\draw[dashed,-,line width=0.4pt] (v21) -- (v0);
+	\draw[dashed,-,line width=0.4pt] (v0) -- (v13);
+	\draw[dashed,-,line width=0.4pt] (v13) -- (v4);
+	\draw[dashed,-,line width=0.4pt] (v4) -- (v0);
+	\draw[dashed,-,line width=0.4pt] (v0) -- (v22);
+	\draw[dashed,-,line width=0.4pt] (v22) -- (v15);
+	\draw[dashed,-,line width=0.4pt] (v15) -- (v5);
+	\draw[dashed,-,line width=0.4pt] (v5) -- (v1);
+	\draw[dashed,-,line width=0.4pt] (v1) -- (v11);
+	\draw[dashed,-,line width=0.4pt] (v11) -- (v8);
+	\draw[dashed,-,line width=0.4pt] (v8) -- (v0);
+	\draw[blue, dashed,-,line width=0.4pt] (v21) -- (v6);
+	\draw[blue, dashed,-,line width=0.4pt] (v21) -- (v9);
+	\draw[blue, dashed,-,line width=0.4pt] (v21) -- (v16);
+	\draw[blue, dashed,-,line width=0.4pt] (v21) -- (v20);
+	\draw[blue, dashed,-,line width=0.4pt] (v22) -- (v2);
+	\draw[blue, dashed,-,line width=0.4pt] (v22) -- (v7);
+	\draw[blue, dashed,-,line width=0.4pt] (v22) -- (v14);
+\end{tikzpicture}
+\end{document}

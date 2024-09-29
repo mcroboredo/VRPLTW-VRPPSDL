@@ -1,0 +1,18 @@
+
+CUSTOMER_SECTION
+
+for each customer, the following data are given in this order:
+
+identifier coordinate_x coordinate_y time_windows_begin time_windows_end demand
+
+LOCKER_SECTION
+
+The first line in LOCKER_SECTION represents the depot with the following data:
+
+0 coordinate_x coordinate_y time_windows_begin time_windows_end 0
+
+the next lines in LOCKER_SECTION represents the lockers with the following data
+
+identifier coordinate_x coordinate_y time_windows_begin time_windows_end capacity
+
+

@@ -1,0 +1,23 @@
+to run the VRPLTW instance n20w20l2_1.vrpl, use the following command: julia src/run.jl data/VRPLTW/n20w20l2_1.vrpl -w
+
+to run the VRPL instance n20w20l2_1.vrpl, use the following command: julia src/run.jl data/VRPLTW/n20w20l2_1.vrpl
+
+to run the VRPPSDL instance r25_5_1.txt, use the following command: julia src/run.jl data/VRPPSDL/r25_5_1.txt -v -c config/VRPPSDL.cfg
+
+to run the VRPPSDL instance n80w20l8_1.vrpl, use the following command: julia src/run.jl data/VRPLTW/n80w20l8_1.vrpl -v -c config/VRPPSDL.cfg 
+
+to run any instance with a known valid upper bound UB, use the command -u UB. For example,  to run the VRPLTW instance n20w20l2_1.vrpl with upper bound 254.62, use the following comand: julia src/run.jl data/VRPLTW/n20w20l2_1.vrpl -w -u 254.62
+
+ 
+to run the VRPLTW instance n20w20l2_1.vrpl generating a solution file n20w20l2_1_TW.sol inside the folder sol, use the following command: julia src/run.jl data/VRPLTW/n20w20l2_1.vrpl -w -o sol/n20w20l2_1_TW.sol
+
+to run the VRPLTW instance n20w20l2_1.vrpl generating a tex file n20w20l2_1_TW.tex inside the folder tex, use the following command: julia src/run.jl data/VRPLTW/n20w20l2_1.vrpl -w -t tex/n20w20l2_1_TW.tex
+
+The commands -u, -o, and -t can be used at the same time. For example: julia src/run.jl data/VRPLTW/n20w20l2_1.vrpl -w -u 254.62 -t tex/n20w20l2_1_TW.tex -o sol/n20w20l2_1_TW.sol
+
+
+
+
+
+
+
